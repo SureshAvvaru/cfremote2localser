@@ -1,0 +1,6 @@
+---
+# This playbook installs the application stack for ag-bie
+- hosts: tag_role_ag-bie
+  connection: local
+  roles:
+    - role: install-agbie
